@@ -56,7 +56,6 @@ public class PubComment {
                 Config.KEY_MSG_ID,msgId);
     }
 
-
     public static interface SuccessCallback{
         void onSuccess();
     }
