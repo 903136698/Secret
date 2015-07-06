@@ -83,7 +83,7 @@ public class AtyMessage extends ListActivity {
                     @Override
                     public void onFail(int errorCode) {
                         pd.dismiss();
-                        
+
                         if (errorCode==Config.RESULT_STATUS_INVALID_TOKEN) {
 
                             startActivity(new Intent(AtyMessage.this, AtyLogin.class));
@@ -92,8 +92,7 @@ public class AtyMessage extends ListActivity {
                             Toast.makeText(AtyMessage.this, R.string.fail_to_pub_comment, Toast.LENGTH_LONG).show();
                         }
                     }
-                },
-                );
+                });
             }
         });
 
