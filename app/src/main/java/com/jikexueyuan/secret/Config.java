@@ -9,7 +9,7 @@ import android.content.SharedPreferences.Editor;
 public class Config {
 //    public static final String SERVER_URL = "http://demo.eoeschool.com/api/v1/nimings/io";
 //    public static final String SERVER_URL = "http://192.168.56.102:8090/TestServer/api.jsp";
-    public static final String SERVER_URL = "http://192.168.0.106:8090/TestServer/api.jsp";
+    public static final String SERVER_URL = "http://192.168.0.124:8090/TestServer/api.jsp";
     public static final String KEY_TOKEN = "token";
     public static final String KEY_ACTION = "action";
     public static final String KEY_PHONE_NUM = "phone";
@@ -38,6 +38,7 @@ public class Config {
     public static final String ACTION_GET_COMMENT = "get_commment";
     public static final String ACTION_PUB_COMMENT = "pub_comment";
     public static final String ACTION_PUBLISH = "publish";
+    public static final int ACTIVITY_RESULT_NEED_REFRESH = 10000;
 
 
     // 获取到缓存的token

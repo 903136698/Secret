@@ -104,6 +104,7 @@ public class AtyMessage extends ListActivity {
             @Override
             public void onSuccess(String msgId, int page, int perpage, List<Comment> comments) {
                 pd.dismiss();
+
                 adapter.clear();
                 adapter.addAll(comments);
             }

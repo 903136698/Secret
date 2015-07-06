@@ -68,7 +68,7 @@ public class AtyMessageCommentListAdapter extends BaseAdapter {
 
 		lc.getTvCellLabel().setText(comment.getContent());
 
-		return convertView;
+		return null;
 	}
 
 

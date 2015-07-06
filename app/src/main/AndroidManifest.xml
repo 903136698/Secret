@@ -22,7 +22,7 @@
         <activity android:name="com.jikexueyuan.secret.atys.AtyLogin"></activity>
         <activity android:name="com.jikexueyuan.secret.atys.AtyTimeline"></activity>
         <activity android:name="com.jikexueyuan.secret.atys.AtyMessage"></activity>
-        <activity android:name="com.jikexueyuan.secret.atys.AtyPubMessage"></activity>
+        <activity android:name=".atys.AtyPublish"></activity>
     </application>
 
 </manifest>
