@@ -36,6 +36,8 @@ public class Config {
     public static final String ACTION_UPLOAD_CONTACTS = "upload_contacts";
     public static final String ACTION_TIMELINE = "timeline";
     public static final String ACTION_GET_COMMENT = "get_commment";
+    public static final String ACTION_PUB_COMMENT = "pub_comment";
+    public static final String ACTION_PUBLISH = "publish";
 
 
     // 获取到缓存的token
